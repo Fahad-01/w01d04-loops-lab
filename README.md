@@ -8,6 +8,10 @@ Paste your answers into this file.
 
 ```
 ANSWER HERE
+
+for(i=0;i<11;i++){
+    console.log(i);
+}
 ```
 
 <br>
@@ -16,6 +20,11 @@ ANSWER HERE
 
 ```
 ANSWER HERE
+var arr= [];
+for(i=0;i<11;i++){
+    arr.unshift(i);
+}
+console.log(arr);
 ```
 
 <br>
@@ -24,6 +33,11 @@ ANSWER HERE
 
 ```
 ANSWER HERE
+var arr= [];
+for(i=-16;i<5;i++){
+    arr.unshift(i);
+}
+console.log(arr);
 ```
 
 <br>
@@ -49,6 +63,21 @@ If the `number` is evenly divisible by 3 AND evenly divisible by 5, print "Fizzb
 
 ```
 ANSWER HERE
+
+var arr =[];
+for (i=0;i<100;i++){
+  arr.push(i+1);
+  if(arr[i]%3 == 0){
+    console.log('fizz');
+  } 
+  if(arr[i]%5 == 0){
+    console.log('buzz');
+  }
+  if(arr[i]%3 == 0 && arr[i]%5 == 0){
+    console.log('fizzbuzz');
+  }
+}
+
 ```
 
 <br>
@@ -60,6 +89,8 @@ Write a for loop that will iterate from 0 to 20. For each iteration, it will che
 
 ```
 ANSWER HERE
+
+
 ```
 
 <br>
@@ -73,6 +104,8 @@ Bonus: Use a nested for loop to show the tables for every multiplier from 1 to 1
 
 ```
 ANSWER HERE
+
+
 ```
 
 <br>
